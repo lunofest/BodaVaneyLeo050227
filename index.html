@@ -9,8 +9,7 @@
     <meta property="og:description"
         content="¡La cuenta regresiva ha comenzado! Descubre los detalles y confirma tu asistencia." />
 
-    <meta property="og:image"
-        content="https://lunofest.github.io/BodaVaneyLeo050227/assets/imagenes/miniatura.png" />
+    <meta property="og:image" content="https://lunofest.github.io/BodaVaneyLeo050227/assets/imagenes/miniatura.png" />
     <meta property="og:url" content="https://lunofest.github.io/BodaVaneyLeo050227/" />
     <meta property="og:type" content="website" />
 
@@ -112,7 +111,7 @@
     <main>
 
 
-<video src="assets/body.mp4" class="video" autoplay loop muted playsinline></video>
+        <video src="assets/body.mp4" class="video" autoplay loop muted playsinline></video>
 
         <div class="flecha">
 
@@ -207,7 +206,7 @@
                 <article class="parteuno contenedor" data-aos="fade-right">
                     <h3 class="title title--active">Ceremonia Civil</h3>
                     <p class="parrafo parrafo--donde">
-                        Acompañanos en este momento tan importante para nosotros, el día 5 de Febrero del 2027 a las 
+                        Acompañanos en este momento tan importante para nosotros, el día 5 de Febrero del 2027 a las
                         11:00hs en Centro Cívico, La Consulta, Mendoza
                     </p>
                     <img src="assets/imagenes/civil.webp" alt="" class="donde__img">
@@ -394,7 +393,7 @@
 
         <section class="dresscode contenedor block glow" id="dresscode">
 
-            <h4 class="title title--active">Dresscode</h4>
+            <h4 class="title title--active">Dress Code</h4>
             <h4 class="subtitle subtitle--active">Formal</h4>
             <!-- <p class="dresscode__note">No usar vestimenta de color bordo ni blanco</p> -->
             <img class="dresscode__img" src="assets/vectores/dresscodeVECTOR.svg" alt="">
@@ -413,7 +412,33 @@
 
 
 
+        <section class="regalos contenedor block glow" data-aos="fade-up">
 
+            <h4 class="title title--active">Regalos</h4>
+            <img class="regalos__icon" src="assets/vectores/regalos.svg" alt="">
+
+            <p class="parrafo parrafo--regalos">
+                "El mejor regalo para nosotros será compartir esta noche tan especial a su lado. <br> Si desean
+                obsequiarnos algo podrán hacerlo por transferencia a nuestra cuenta..."
+            </p>
+
+            <button id="mostrarBoton" class="boton__cta">Ver datos bancarios</button>
+            <div id="textoDesplegable" class="escondido regalos__data">
+
+                <h6 class="regalo__date">Alias:</h6>
+                <p class="name__alias" id="alias">Vanesa26.00</p>
+                <button class="alias__button" onclick="copyText()">Copiar Alias</button>
+                <div class="copy-message" id="copyMessage">¡Copiado!</div>
+
+
+                <!-- <h6 class="regalo__date">CBU:</h6>
+                <p class="name__cbu" id="cbuAlias">(aquí tu cbu)</p>
+                <button class="cbu__button" onclick="copyCbuText()">Copiar CBU</button>
+                <div class="copy-message" id="copyCbuMessage" style="display: none;">¡Copiado!</div> -->
+            </div>
+
+
+        </section>
 
 
         <section style="display: none;" class="agradecimiento block glow contenedor" data-aos="fade-up">
@@ -479,6 +504,9 @@
 
 
 
+        <!-- separador: -->
+        <img class="img__separador" src="assets/imagenes/SEPARADOR copia.webp" alt="" data-aos="flip-right">
+        <!-- separador: -->
 
 
 
